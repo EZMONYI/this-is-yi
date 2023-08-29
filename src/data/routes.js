@@ -1,24 +1,24 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Yi',
     path: '/',
-  },
-  {
-    label: 'About',
-    path: '/about',
   },
   {
     label: 'Resume',
     path: '/resume',
   },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: 'Research',
+    path: '/research',
   },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Project',
+    path: '/project',
+  },
+  {
+    label: 'Music',
+    path: '/music',
   },
   {
     label: 'Contact',

@@ -1,0 +1,33 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import Main from '../layouts/Main';
+
+import Cell from '../components/Projects/Cell';
+import data from '../data/projects';
+
+const Projects = () => (
+  <Main
+    title=""
+    description="Learn about Michael D'Angelo's projects."
+  >
+    <article className="post" id="projects">
+      <header>
+        <div className="title">
+          <h2><Link to="/projects">Projects</Link></h2>
+          <p>A selection of my academic research projects,
+            both ongoing preprints and published papers
+          </p>
+        </div>
+      </header>
+      {data.map((project) => (
+        <Cell
+          data={project}
+          key={project.title}
+        />
+      ))}
+    </article>
+  </Main>
+);
+
+export default Projects;
