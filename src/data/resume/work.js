@@ -13,23 +13,36 @@
  */
 const work = [
   {
+    name: 'Multimodal Art Projection',
+    position: 'Core Member',
+    url: 'https://huggingface.co/m-a-p',
+    startDate: '2023-05-01',
+    summary: `MAP is an organization joined by researchers from universities and AI research Institute all over the world.
+    We are dedicated to create open source AI music models. I contributed to the collaborated project with BAAI,
+    <a href='https://huggingface.co/datasets/BAAI/COIG-PC'>COIG-PC</a>, as one of major contributors. I am currently leading our project
+    ChatMusician, a LLM with symbolic music capabilities, as co-first author. 
+    We are also collaborating with multiple Univerisites on Music-tool-using model programming project.`,
+    highlights: [
+      'Developed ACL anthology and google scholar scraping scripts to collect raw dataset for instruction sets in COIG-PC.',
+      'Currently Leading data mining and preprocessing, model training and model performance evaluation methods in ChatMusician.',
+      'Currently contributing to Music-tool-using project on task benchmark design Music editing modules and API construction.',
+    ],
+  },
+  {
     name: 'Federal Home Loan Bank Atlanta',
     position: 'Software Architect Intern',
     url: 'https://corp.fhlbatl.com/',
     startDate: '2020-06-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    endDate: '2020-08-01',
+    summary: `I was in the Entreprise Architect department where we dedicated our work towards 
+    improve software engineering pipelines of exisitng entreprise routines. For the first month of my internship,
+    I was assigned to replace our exisitng security codebase for data visualize platform for our commercial bank clients
+    with Spring Security. In the second month, my project was to implement a project-centralized internal info platform 
+    for colleagues of multiple departments to post updates on projects.`,
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Implemented new security measures into entreprise database system verification programs.',
+      'Re-designed and implemented backend database I/O microservices with approximately 30% increased I/O speed.',
+      'Designed and implemented internal information board system enabling quick cross-department project updates and discussion.',
     ],
   },
   {
@@ -38,17 +51,18 @@ const work = [
     url: 'https://github.com/NLP-Suite/NLP-Suite/wiki',
     startDate: '2020-09-01',
     endDate: '2021-01-01',
-    summary: `Arthena is a Series A Company funded by <a href="https://www.anthemis.com/">Athemis</a>,
-    <a href="https://foundationcapital.com">Foundation Capital</a>, and <a href="https://ycombinator.com/">YC</a>.
-    We develop quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were acquired by
-    <a href="https://www.masterworks.com/">Masterworks</a> in 2023.`,
+    summary: `I was the leading programmer in professor Roberto Franzosi's NLP Suite team from October 2019 to Janurary 2021.
+    During my time in the group, I assisted professsor Franzosi in development of hundreds of routines. He had no previous programming experience before this project,
+    so at the begining it was rough, but our collaboration got smoother during 2020. He put himeself on frontend UI solely and left the entire backend to me. 
+    In the summer and fall of 2020, I dedicated to reform the entire existing codebase because,
+    at that time, our code has become too messy to make any new pipelines with damaging the old ones. Our collaboration provided a stable and powerful
+    NLP Suite software, allowing several student researchers who were collaborating with professor Franzosi to publish Sociology papers.`,
     highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
+      'Designed and implemented the core codebase to deal in very general ways with all Stanford CoreNLP annotators (POS, DepRel, NER, gender, quote, sentiment analysis, parser)',
+      'Designed and implemented the codebase to deal with NER locations',
+      'Designed and implemented the functions to compute Ngrams, to detect spelling errors, to extract information from csv files',
+      'Rewrote and reformed badly writen or redundant codebase in existing pipelines, reducing code repitition by 50%',
+      'Designed and implemented journal published Sociology research paper specific data process routines, processed and cleaned the data for publications',
     ],
   },
   {
@@ -57,44 +71,17 @@ const work = [
     url: 'https://www.szfxdev.com/',
     startDate: '2019-06-01',
     endDate: '2018-08-01',
-    summary: `Enveritas is a non-profit that works with coffee farmers to improve their livelihoods.
-    I joined on day one and helped build a variety of tools to collect and analyze data. I also advised
-    on technical strategy, helped hire engineers, and advised on their YC application.`,
+    summary: `Suzhou Fangxing IT is a company founded to provide software engineering solutions to
+    industrial design institutes and factorys. During my time at the company, we implemented the online engineering platform which
+    allowed multiple designer to collaborate on CAD engineer drawings of chemical factory infrastructure. I was responsible to build loader and visualizer
+    of the 3D models of platform. We introduced and demonstrated our platform on Suzhou Chemical Industry meeting. I was put on another project to use
+    Yolov5 to build a real-time fire detection on CCTV data steam in chemical factory.`,
     highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM\'s, and other techniques.',
+      'Implemented industrial infrastructure demo module in the online engineering plaftform with Three.js',
+      'Desgined and implemented real-time fire detection using Yolov5 on CCTV data stream.',
+      'Designed and implemented company website dynamic index page using React and Typescript.',
     ],
   },
-  {
-    name: 'BASF',
-    position: 'Information Technology Intern',
-    url: 'https://www.basf.com/cn/en/who-we-are/organization/key-production-sites/jiangsu.html',
-    startDate: '2018-05-01',
-    endDate: '2018-08-01',
-    summary: `Zenysis develops data analysis and visualization tools for government agencies and international organizations.
-    Their solutions help improve decision-making by integrating and analyzing large-scale datasets from various sources.
-    I was the second contributor to the codebase. We built data visualization tools and tackled complex data ingestion
-    challenges for the Ethiopian Ministry of Health.`,
-    highlights: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    name: 'Multimodal Art Projection',
-    position: 'Core Member',
-    url: 'https://huggingface.co/m-a-p',
-    startDate: '2015-07-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors. Detectors help customers identify objects,
-    events, or patterns in images and videos without requiring machine learning or coding expertise. I played a crucial role in
-    defining the company's vision. I was responsible for architecting and building the initial product. I left shortly after the
-    Series A to focus on Arthena.`,
-    highlights: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Caffe, Node.JS, Redis, MongoDB, and other technologies.',
-    ],
-  },
-
 ];
 
 export default work;
