@@ -1,46 +1,52 @@
 const data = [
   {
     title: 'Multi-band Equalizer Plugin',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    subtitle: 'Presented in Intro to Computer Music class final project presentation',
+    date: '2022-4-20',
+    link: 'https://github.com/ShanghaiCannon/simpleEQ',
+    image: '/images/projects/eq.png',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built a 5 band equalizer plugin with 1 low pass filter, 1 high pass filter and 3 band pass filters.'
+      + 'With a EQ curve analyze window at the top,'
+      + 'and toggle for each filter.',
   },
   {
     title: 'Twitter User ETL Microservice',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    subtitle: 'Team project in CMU Cloud Computing course, ranked 1st in the final live test.',
+    link: 'https://github.com/ShanghaiCannon/Twitter-analytics-webservices',
+    date: '2022-11-20',
+    image: '/images/projects/twitter-analytics.webp',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Won the first place in the final live test in which web services host on Kubernetes clusters on AWS EC2 instances'
+      + 'under a budget of 1.5$/h. Performance score evaluated on the amount of budget used, RPS and accuracy rate of return.',
   },
   {
     title: 'Uber Matching System',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    subtitle: 'Kafka and Samza service for data producer and consumer for matching customer and driver, customer and their customized advertisements',
+    link: 'https://github.com/ShanghaiCannon/Uber-Matching-System',
+    image: '/images/projects/stream.png',
+    date: '2022-10-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Kafka and Samza service for data producer and consumer for matching customer and driver, customer and their customized advertisements.',
   },
   {
-    title: 'Cab Fare Prediction App',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'NYC Cab Fare Prediction service',
+    subtitle: 'Trained NYC cab fare prediction model with XGBoost on Google AI platform and host model inference as google app engine api. ',
+    image: '/images/projects/manh_cab.jpg',
+    link: 'https://github.com/ShanghaiCannon/NYC_cab_fee',
+    date: '2022-9-15',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Trained NYC cab fare prediction model with XGBoost on Google AI platform and host model inference as google app engine api.'
+      + 'Combined call for model inference along with google service api such as voice-to-text, map to a NYC cab fee prediction service.',
+  },
+  {
+    title: 'Online group chat service',
+    subtitle: 'A online group chat service host on kubernetes cluster on AWS EC2 instances.',
+    image: '/images/projects/Wechat-logo.png',
+    link: 'https://github.com/ShanghaiCannon/Online-chat-system',
+    date: '2022-9-15',
+    desc:
+      'A online group chat service host on kubernetes cluster on AWS EC2 instances.',
   },
 ];
 

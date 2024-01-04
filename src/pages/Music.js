@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import data from '../data/music';
 
 const Projects = () => (
   <Main
@@ -14,8 +13,10 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Projects</Link></h2>
-          <p>A selection of my music performances and productions.</p>
+          <h2>Music</h2>
+          <p>A selection of my music performances and productions.
+            Click on picture or title to see detail pages.
+          </p>
         </div>
       </header>
       {data.map((project) => (

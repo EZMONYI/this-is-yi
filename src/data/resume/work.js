@@ -34,13 +34,13 @@ const work = [
     url: 'https://corp.fhlbatl.com/',
     startDate: '2020-06-01',
     endDate: '2020-08-01',
-    summary: `I was in the Entreprise Architect department where we dedicated our work towards 
-    improve software engineering pipelines of exisitng entreprise routines. For the first month of my internship,
-    I was assigned to replace our exisitng security codebase for data visualize platform for our commercial bank clients
+    summary: `I was in the Enterprise Architect department where we dedicated our work towards 
+    improve software engineering pipelines of existing enterprise routines. For the first month of my internship,
+    I was assigned to replace our existing security codebase for data visualize platform for our commercial bank clients
     with Spring Security. In the second month, my project was to implement a project-centralized internal info platform 
     for colleagues of multiple departments to post updates on projects.`,
     highlights: [
-      'Implemented new security measures into entreprise database system verification programs.',
+      'Implemented new security methods into enterprise database system verification programs.',
       'Re-designed and implemented backend database I/O microservices with approximately 30% increased I/O speed.',
       'Designed and implemented internal information board system enabling quick cross-department project updates and discussion.',
     ],
@@ -53,7 +53,7 @@ const work = [
     endDate: '2021-01-01',
     summary: `I was the leading programmer in professor Roberto Franzosi's NLP Suite team from October 2019 to Janurary 2021.
     During my time in the group, I assisted professsor Franzosi in development of hundreds of routines. He had no previous programming experience before this project,
-    so at the begining it was rough, but our collaboration got smoother during 2020. He put himeself on frontend UI solely and left the entire backend to me. 
+    so at the beginning it was rough, but our collaboration got smoother during 2020. He put himself on frontend UI solely and left the entire backend to me. 
     In the summer and fall of 2020, I dedicated to reform the entire existing codebase because,
     at that time, our code has become too messy to make any new pipelines with damaging the old ones. Our collaboration provided a stable and powerful
     NLP Suite software, allowing several student researchers who were collaborating with professor Franzosi to publish Sociology papers.`,
@@ -61,7 +61,7 @@ const work = [
       'Designed and implemented the core codebase to deal in very general ways with all Stanford CoreNLP annotators (POS, DepRel, NER, gender, quote, sentiment analysis, parser)',
       'Designed and implemented the codebase to deal with NER locations',
       'Designed and implemented the functions to compute Ngrams, to detect spelling errors, to extract information from csv files',
-      'Rewrote and reformed badly writen or redundant codebase in existing pipelines, reducing code repitition by 50%',
+      'Rewrote and reformed badly writen or redundant codebase in existing pipelines, reducing code repetition by 50%',
       'Designed and implemented journal published Sociology research paper specific data process routines, processed and cleaned the data for publications',
     ],
   },
@@ -72,13 +72,13 @@ const work = [
     startDate: '2019-06-01',
     endDate: '2018-08-01',
     summary: `Suzhou Fangxing IT is a company founded to provide software engineering solutions to
-    industrial design institutes and factorys. During my time at the company, we implemented the online engineering platform which
+    industrial design institutes and factories. During my time at the company, we implemented the online engineering platform which
     allowed multiple designer to collaborate on CAD engineer drawings of chemical factory infrastructure. I was responsible to build loader and visualizer
     of the 3D models of platform. We introduced and demonstrated our platform on Suzhou Chemical Industry meeting. I was put on another project to use
     Yolov5 to build a real-time fire detection on CCTV data steam in chemical factory.`,
     highlights: [
-      'Implemented industrial infrastructure demo module in the online engineering plaftform with Three.js',
-      'Desgined and implemented real-time fire detection using Yolov5 on CCTV data stream.',
+      'Implemented industrial infrastructure demo module in the online engineering platform with Three.js',
+      'Designed and implemented real-time fire detection using Yolov5 on CCTV data stream.',
       'Designed and implemented company website dynamic index page using React and Typescript.',
     ],
   },

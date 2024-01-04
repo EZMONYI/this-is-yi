@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import data from '../data/research';
 
 const Projects = () => (
   <Main
@@ -14,9 +13,10 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Projects</Link></h2>
+          <h2>Research Projects</h2>
           <p>A selection of my academic research projects,
-            both ongoing preprints and published papers
+            both ongoing preprints and published papers.
+            Click on picture or title to see detail pages.
           </p>
         </div>
       </header>
