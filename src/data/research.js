@@ -11,7 +11,7 @@ const data = [
   {
     title: 'ChatMusician',
     subtitle: 'Presented in Intro to Computer Music class final project presentation',
-    link: 'https://youtu.be/LFiW7B8hbI8',
+    link: 'https://ezmonyi.github.io/ChatMusician/',
     image: '/images/research/chat_mus.png',
     date: '2022-4-20',
     desc:
@@ -38,11 +38,11 @@ const data = [
   {
     title: 'TimbreSpace',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'https://drive.google.com/file/d/1cYWjPoyDQopbnRt1rCwQlDVuvZgSEhf-/view?usp=drive_link',
+    link: 'https://youtu.be/tB2fsMuoELA',
     image: '/images/research/VR.jpeg',
     date: '2015-06-28',
     desc:
-      'Organized and led the project applying RAVE model latent space control to VR headsets with CMU HCI students',
+      'Organized and led the project applying RAVE model latent space semantic control to VR headsets',
   },
 ];
 
